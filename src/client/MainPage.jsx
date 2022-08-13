@@ -3,6 +3,7 @@ import { Container, Carousel, Modal, Row, Col, Figure, ProgressBar} from 'react-
 import Ambitions from './images/ambitions.png'
 import Homey from './images/homey.jpeg'
 import Sky from './images/sky.jpeg'
+import Tree from './images/tree.jpg'
 
 export function MainPage() {
     console.log("YOU MADE INSIDE MainPage")
@@ -41,7 +42,7 @@ export function MainPage() {
                     <Col>
                         <h3>Kiss in the rain.</h3>
                         <div className='mb-4 md:mb-0 text-lg'>
-                            <time dateTime='2022-06-07T11:21:06'>June 7, 2022</time>
+                            <time dateTime='2022-08-13T11:21:06'>August 13, 2022</time>
                         </div>
                         <div>
                             One of my favorite hobbies of all time has been journaling. <br></br>
@@ -57,7 +58,7 @@ export function MainPage() {
                         </div>
                     </Col>
                     <Col>
-                        <h3>Quote of the Day</h3>
+                        <h3>Quote of the Year</h3>
                         <p>Much of my inspiration comes from within but I value wisdom from others as well.</p>
                         <div className='flex items-center'>
                             <Figure>
@@ -75,9 +76,60 @@ export function MainPage() {
                     </Col>
                     <p></p>
                     <p></p>
+                    <Col>
+                        <h3>Tree is like life.</h3>
+                        <Figure>
+                            <Figure.Image
+                                width={671}
+                                height={780}
+                                alt="171x180"
+                                src={Tree}
+                            />
+                            <Figure.Caption>
+                                Inspiration: Neighbor Tree
+                            </Figure.Caption>
+                        </Figure>
+                    </Col>
+                    <Col>
+                        <div className='mb-4 md:mb-0 text-lg'>
+                            <p></p>
+                            <p></p>
+                            <h3></h3>
+                            <br></br>
+                            <p>
+                                Every season you come back with your leaves again. <br></br>
+                                <br></br>
+                                No matter how tough last season may have been, you come back. <br></br>
+                                <br></br>
+                                This time, a little stronger, fuller, taller, bigger, and healthier. <br></br>
+                                <br></br>
+                                Because that’s how you grow. <br></br>
+                                <br></br>
+                                Growth is overcoming the harsh times. Now, you have thicker skin. <br></br>
+                                <br></br>
+                                At some point in time, you will age and derail. <br></br>
+                                <br></br>
+                                Not because you’re getting weaker. But because with time, everything - even trees - leaves the Earth. <br></br>
+                                <br></br>
+                                So branch out as much as you can and live your fullest life.<br></br>
+                                <br></br>
+                                <i>August 13, 2022</i>
+                            </p>
+                        </div>
+                    </Col>
                 </Row>
             </Modal.Body>
             <Modal.Body>
+                <Row xs={1} md={2}>
+                    <Col>
+                        
+                    </Col>
+                </Row>
+                <Row xs={1} md={2}>
+                    <Col>
+                        
+                    </Col>
+                </Row>
                 <Row>
                     <Col>
                     <h3>Coding Skills Proficiency</h3>
