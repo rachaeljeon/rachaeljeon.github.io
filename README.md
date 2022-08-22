@@ -23,3 +23,7 @@ Come check it out!
 
 1. Once inside backend, star the environment using: `source env/bin/activate`
 2. `flask run`
+
+## Fronend
+
+1. `npm start`
