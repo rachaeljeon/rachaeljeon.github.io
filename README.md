@@ -21,5 +21,5 @@ Come check it out!
 
 ## Backend
 
-1. Once inside backend, star the environment using: source env/bin/activate
+1. Once inside backend, star the environment using: `source env/bin/activate`
 2. `flask run`
