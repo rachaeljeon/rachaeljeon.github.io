@@ -20,7 +20,9 @@ export function Contact({url}) {
 
             }
         }
-        fetch('/sendmail', 'POST').then(res => res.json()).then(data =>{
+        fetch('/sendmail')
+        .then(res => res.json())
+        .then(data =>{
             console.log(data)
         })
         // const reqeustOptions = {
@@ -52,6 +54,14 @@ export function Contact({url}) {
     // 
     }
 
+    useEffect(() => {
+        fetch("/sendmail")
+        .then(response => response.json()
+        .then(data => {
+            console.log(data)
+        })
+    )}, []);
+      
     return (
         <Container>
             <br>
