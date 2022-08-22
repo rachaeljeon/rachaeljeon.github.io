@@ -23,7 +23,9 @@ Come check it out!
 
 1. Once inside backend, star the environment using: `source env/bin/activate`
 2. `flask run`
+3. Running on PORT 5000
 
 ## Fronend
 
 1. `npm start`
+2. Running on PORT 3001
