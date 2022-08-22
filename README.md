@@ -19,3 +19,13 @@ You may also see any lint errors in the console.
 You will find pages with a breakdown of everything - from my technical skills to my insights into my joy of interests
 Come check it out!
 
+## Backend
+
+1. Once inside backend, star the environment using: `source env/bin/activate`
+2. `flask run`
+3. Running on PORT 5000
+
+## Fronend
+
+1. `npm start`
+2. Running on PORT 3001
