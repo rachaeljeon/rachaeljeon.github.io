@@ -1,9 +1,8 @@
 {
-  "name": "thirdone",
+  "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000/",
-  "homepage": "https://rachaeljeon.github.io/mywebsite",
+  "homepage": "https://rachaeljeon.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
