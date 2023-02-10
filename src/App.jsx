@@ -40,7 +40,7 @@ function App() {
             {/* <Nav.Link href="/home">Home</Nav.Link> */}
             <Nav.Link href="/resume">Resume</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="https://github.com/Rachaelj99">Github</Nav.Link>
+            <Nav.Link href="https://github.com/rachaeljeon">Github</Nav.Link>
             <Nav.Link href="/interests">Interests</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="/aboutme">About Me</NavDropdown.Item>
