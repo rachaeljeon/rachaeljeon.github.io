@@ -27,7 +27,7 @@ Come check it out!
 2. `flask run`
 3. Running on PORT 5000
 
-## Fronend
+## Frontend
 
 1. `npm start`
 2. Running on PORT 3001
