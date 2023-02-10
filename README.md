@@ -18,7 +18,7 @@ You may also see any lint errors in the console.
 
 ### Wecome to My Website!
 
-You will find pages with a breakdown of everything - from my technical skills to my insights into my joy of interests
+You will find pages with a breakdown of everything - from my technical skills to my insights into my joy of interests.
 Come check it out!
 
 ## Backend
