@@ -1,12 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { useEffect } from 'react';
+
 
 export function Projects() {
-    console.log("YOU MADE INSIDE PROJECTS")
+    
+
+    const [data, setData] = useState([{}]);
+
+    useEffect(() => {
+        fetch("/members").then(
+            res => res.json()
+        ).then(
+            data => {
+                setData(data)
+                console.log(data)
+            }
+        )
+    }, [])
     return (
         <div>
-            <h1>
-                PROJECTS
-            </h1>
+
         </div>
     )
 }

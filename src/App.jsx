@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,6 +18,15 @@ import {Interests} from './client/Interests'
 let url = 'http://localhost:5000' // backend is running on 8000
 
 function App() {
+
+  const [todos, setTodos] = useState([]);
+  useEffect(() => {
+    fetch("/todos").then(response => 
+    response.json().then(data =>
+      setTodos(data.todos)
+    ))
+  }, []);
+
   return (
     <>
     <p></p>
@@ -49,7 +58,7 @@ function App() {
         </Route> */}
         <Route path="/resume" element={Resume()}>
         </Route>
-        <Route path="/projects" element={Projects()}>
+        <Route path="/projects" element={todos}>
         </Route>
         <Route path="/github" element={Github()}>
         </Route>
