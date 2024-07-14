@@ -16,6 +16,10 @@ export default function Contact() {
         setShow(false)
     }
 
+    function sendMessage() {
+        console.log("...todo: store into database")
+    }
+
     return (
         <Container>
             <br></br>

@@ -40,19 +40,17 @@ export default function App() {
           </Container>
         </Navbar>
         <Routes>
-          <Route path="/" element={Home()}>
+          <Route path="/" element={<Home />}>
           </Route>
-          <Route path="#resume" element={Resume()}>
+          <Route path="#resume" element={<Resume />}>
           </Route>
-          <Route path="#projects" element={todos}>
+          <Route path="#projects" element={<Projects />}>
           </Route>
-          <Route path="#github" element={Github()}>
+          <Route path="#interests" element={<Interests />}>
           </Route>
-          <Route path="#interests" element={Interests()}>
+          <Route path="#aboutme" element={<AboutMe />}>
           </Route>
-          <Route path="#aboutme" element={AboutMe()}>
-          </Route>
-          <Route path="#contact" element={<Contact url={url}/>}>
+          <Route path="#contact" element={<Contact/>}>
           </Route>
         </Routes>
       </Router>
