@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import {Container, Nav,  Navbar, NavDropdown} from 'react-bootstrap';
 
-import {HomePage} from './pages/Home.jsx'
 import Resume from "./images/resume.png"
 import Projects from './pages/Projects.jsx'
 import AboutMe from './pages/AboutMe.jsx'
@@ -28,7 +27,7 @@ export default function App() {
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#resume">Resume</Nav.Link>
                 <Nav.Link href="#projects">Projects</Nav.Link>
-                <Nav.Link href="https://github.com/rachaeljeon">Github</Nav.Link>
+                <Nav.Link to="https://github.com/rachaeljeon">Github</Nav.Link>
                 <Nav.Link href="#interests">Interests</Nav.Link>
                 <NavDropdown title="More" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#aboutme">About Me</NavDropdown.Item>
@@ -39,18 +38,19 @@ export default function App() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        
         <Routes>
           <Route path="/" element={<Home />}>
           </Route>
-          <Route path="#resume" element={<Resume />}>
+          <Route path="/resume" element={<Resume />}>
           </Route>
-          <Route path="#projects" element={<Projects />}>
+          <Route path="/projects" element={<Projects />}>
           </Route>
-          <Route path="#interests" element={<Interests />}>
+          <Route path="/interests" element={<Interests />}>
           </Route>
-          <Route path="#aboutme" element={<AboutMe />}>
+          <Route path="/aboutme" element={<AboutMe />}>
           </Route>
-          <Route path="#contact" element={<Contact/>}>
+          <Route path="/contact" element={<Contact/>}>
           </Route>
         </Routes>
       </Router>
