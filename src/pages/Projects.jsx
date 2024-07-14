@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { useEffect } from 'react';
 
 
-export default function Projects() {
+export function Projects() {
     
 
     const [data, setData] = useState([{}]);

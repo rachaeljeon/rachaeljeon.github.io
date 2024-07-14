@@ -9,10 +9,9 @@ import {Container, Nav,  Navbar, NavDropdown} from 'react-bootstrap';
 import {HomePage} from './pages/Home.jsx'
 import {Resume} from './pages/Resume.jsx'
 import {Projects} from './pages/Projects.jsx'
-import {Github} from './pages/Github.jsx'
 import {AboutMe} from './pages/AboutMe.jsx'
 import {Contact} from './pages/Contact.jsx'
-import {MainPage} from './pages/MainPage.jsx'
+import {Home} from './pages/Home.jsx'
 import {Interests} from './pages/Interests.jsx'
 
 export default function App() {
@@ -50,21 +49,19 @@ export default function App() {
           </Container>
         </Navbar>
         <Routes>
-          <Route path="/" element={MainPage()}>
+          <Route path="/" element={Home()}>
           </Route>
-          {/* <Route path="/home" element={HomePage()}>
-          </Route> */}
-          <Route path="/resume" element={Resume()}>
+          <Route path="#resume" element={Resume()}>
           </Route>
-          <Route path="/projects" element={todos}>
+          <Route path="#projects" element={todos}>
           </Route>
-          <Route path="/github" element={Github()}>
+          <Route path="#github" element={Github()}>
           </Route>
-          <Route path="/interests" element={Interests()}>
+          <Route path="#interests" element={Interests()}>
           </Route>
-          <Route path="/aboutme" element={AboutMe()}>
+          <Route path="#aboutme" element={AboutMe()}>
           </Route>
-          <Route path="/contact" element={<Contact url={url}/>}>
+          <Route path="#contact" element={<Contact url={url}/>}>
           </Route>
         </Routes>
       </Router>

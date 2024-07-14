@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container} from 'react-bootstrap';
 
-export default function Interests() {
+export function Interests() {
     console.log("YOU MADE INSIDE Interests")
     return (
         <div>

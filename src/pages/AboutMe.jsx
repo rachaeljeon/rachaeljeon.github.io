@@ -1,8 +1,8 @@
 import React from 'react';
-import Me from "../../public/images/me.jpeg"
+import Me from "../images/me.jpeg"
 import { Container, Figure } from 'react-bootstrap';
 
-export default function AboutMe() {
+export function AboutMe() {
 
     return (
         <Container>

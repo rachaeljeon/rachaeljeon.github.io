@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import MyResume from './images/resume.png'
 import {Container, Figure} from 'react-bootstrap';
 
-export default function Resume() {
+export function Resume() {
 
     return (
         <div className='resume'>
