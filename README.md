@@ -18,16 +18,5 @@ You may also see any lint errors in the console.
 
 ### Wecome to My Website!
 
-You will find pages with a breakdown of everything - from my technical skills to my insights into my joy of interests.
+You will find pages with a breakdown of everything - from my technical skills to my insights into my joy of interest.
 Come check it out!
-
-## Backend
-
-1. Once inside backend, star the environment using: `source env/bin/activate`
-2. `flask run`
-3. Running on PORT 5000
-
-## Frontend
-
-1. `npm start`
-2. Running on PORT 3001
