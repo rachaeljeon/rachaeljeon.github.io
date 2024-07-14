@@ -5,7 +5,7 @@ import Homey from './images/homey.jpeg'
 import Sky from './images/sky.jpeg'
 import Tree from './images/tree.jpg'
 
-export function MainPage() {
+export default function MainPage() {
     console.log("YOU MADE INSIDE MainPage")
     return (
         <Container>

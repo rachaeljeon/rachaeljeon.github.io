@@ -4,7 +4,7 @@ import Sky from './images/sky.jpeg'
 import Ambitions from './images/ambitions.png'
 import Homey from './images/homey.jpeg'
 
-export function Github() {
+export default function Github() {
     console.log("YOU MADE INSIDE GITHUB")
     return (
         <Container>

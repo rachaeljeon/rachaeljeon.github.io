@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Modal, Row, Col, Form, Button } from 'react-bootstrap';
 
-export function HomePage() {
+export default function HomePage() {
     console.log("YOU MADE INSIDE HOMEPAGE")
     return (
         <Container>

@@ -6,14 +6,14 @@ import {
 } from "react-router-dom";
 import {Container, Nav,  Navbar, NavDropdown} from 'react-bootstrap';
 
-import {HomePage} from './client/Home.jsx'
-import {Resume} from './client/Resume.jsx'
-import {Projects} from './client/Projects.jsx'
-import {Github} from './client/Github.jsx'
-import {AboutMe} from './client/AboutMe.jsx'
-import {Contact} from './client/Contact'
-import {MainPage} from './client/MainPage'
-import {Interests} from './client/Interests'
+import {HomePage} from './pages/Home.jsx'
+import {Resume} from './pages/Resume.jsx'
+import {Projects} from './pages/Projects.jsx'
+import {Github} from './pages/Github.jsx'
+import {AboutMe} from './pages/AboutMe.jsx'
+import {Contact} from './pages/Contact.jsx'
+import {MainPage} from './pages/MainPage.jsx'
+import {Interests} from './pages/Interests.jsx'
 
 export default function App() {
 

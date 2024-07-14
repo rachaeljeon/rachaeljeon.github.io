@@ -2,7 +2,7 @@ import React from 'react';
 import Me from './images/me.JPG'
 import { Container, Modal, Row, Col, Figure } from 'react-bootstrap';
 
-export function AboutMe() {
+export default function AboutMe() {
     console.log("YOU MADE INSIDE AboutMe")
     return (
         <Container>
