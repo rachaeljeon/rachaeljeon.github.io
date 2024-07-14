@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Carousel, Modal, Row, Col, Figure, ProgressBar} from 'react-bootstrap';
-import Ambitions from './images/ambitions.png'
-import Homey from './images/homey.jpeg'
-import Sky from './images/sky.jpeg'
-import Tree from './images/tree.jpg'
+import Ambitions from "../images/ambitions.png"
+import Homey from '../images/homey.jpeg'
+import Sky from '../images/sky.jpeg'
+import Tree from '../images/tree.jpg'
 
 export function Home() {
     console.log("YOU MADE INSIDE MainPage")
