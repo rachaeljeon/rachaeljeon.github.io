@@ -2,7 +2,7 @@ import React from 'react';
 import Me from "../images/me.jpeg"
 import { Container, Figure } from 'react-bootstrap';
 
-export function AboutMe() {
+export default function AboutMe() {
 
     return (
         <Container>

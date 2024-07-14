@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from 'react';
 import { Container, Form, Button, Modal} from 'react-bootstrap';
 
-export function Contact() {
+export default function Contact() {
 
     const [show, setShow] = useState(false)
     const [name, setName] = useState("")

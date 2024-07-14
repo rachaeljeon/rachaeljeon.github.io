@@ -7,23 +7,14 @@ import {
 import {Container, Nav,  Navbar, NavDropdown} from 'react-bootstrap';
 
 import {HomePage} from './pages/Home.jsx'
-import {Resume} from './pages/Resume.jsx'
-import {Projects} from './pages/Projects.jsx'
-import {AboutMe} from './pages/AboutMe.jsx'
-import {Contact} from './pages/Contact.jsx'
-import {Home} from './pages/Home.jsx'
-import {Interests} from './pages/Interests.jsx'
+import Resume from "./images/resume.png"
+import Projects from './pages/Projects.jsx'
+import AboutMe from './pages/AboutMe.jsx'
+import Contact from './pages/Contact.jsx'
+import Home from './pages/Home.jsx'
+import Interests from './pages/Interests.jsx'
 
 export default function App() {
-
-  const [todos, setTodos] = useState([])
-
-  useEffect(() => {
-    fetch("/todos").then(response => 
-    response.json().then(data =>
-      setTodos(data.todos)
-    ))
-  }, []);
 
   return (
     <>
